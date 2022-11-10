@@ -14,7 +14,7 @@
 ## Tests
 - Run `npm test`
 
-### Guide
+## Guide
 #### Endpoints
 - [POST] `/api/auth/register`
 ```
@@ -42,7 +42,7 @@
 }
 ```
 
-- [GET] `http://localhost:8080/api/auth/refresh?refreshToken=<your refresh token>`
+- [GET] `/api/auth/refresh?refreshToken=<your refresh token>`
 
 
 - [GET] `/api/users/details`
