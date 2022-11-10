@@ -3,9 +3,13 @@
 - Setup Tests: `bash init-test.sh` 
 
 ## Installation
+### Manual Install
 - `npm install`
 - copy `env` to `.env`, leave `MONGO_USER` and `MONGO_PASS` blank if not using URI without username & password like in localhost
 - `npm start`
+
+### Docker
+- Run `docker-compose up`
 
 ## Tests
 - Run `npm test`
